@@ -7,7 +7,7 @@ body {
   width: 1000px;
 }
 
-.header-section {
+header  {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -27,7 +27,7 @@ body {
   color: #333;
 }
 
-.main-content-area {
+main{
   text-align: center;
   padding: 20px;
 }
@@ -62,7 +62,7 @@ input[type="text"] {
   border: 1px solid #ccc;
 }
 
-.footer-info {
+footer{
   text-align: center;
   margin-top: 50px;
   padding: 20px;
@@ -93,3 +93,14 @@ input[type="text"] {
   color: #f4f4f4;
   border-color: #777;
 }
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
