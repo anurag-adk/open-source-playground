@@ -69,8 +69,7 @@ This **Open Source Playground** serves as a training ground for developers who w
 The intentional issues in this project provide realistic scenarios you might encounter in real open source projects, making it an excellent stepping stone to larger contributions.
 
 ## 🌟 Live Demo
-
-[Add your live demo link here]
+[Click to see LIVE DEMO](https://anurag-adk.github.io/open-source-playground/)
 
 ## 📄 License
 
