@@ -1,6 +1,6 @@
 # 💬 Open Source Playground - QuoteGen
 
-Welcome to the **Open Source Playground**! This project is designed as a beginner-friendly environment for aspiring open-source contributors to get hands-on experience with HTML, CSS, and JavaScript. It features a simple Quote Generator application with intentionally introduced issues that you can fix.
+Welcome to the **Open Source Playgroud**! This project is designed as a beginner-friendly environment for aspiring open-source contributors to get hands-on experience with HTML, CSS, and JavaScript. It features a simple Quote Generator application with intentionally introduced issues that you can fix.
 
 ## 🎯 Project Goal
 
@@ -43,7 +43,7 @@ This project has several deliberate issues across HTML, CSS, and JavaScript. You
 3. **Open in VS Code and start Live Server**
 
    - Open the project in VS Code
-   - Install the Live Server extension if you haven't already
+   - Install the Live Server extensoon if you haven't already
    - Right-click on `index.html` and select "Open with Live Server"
 
 4. **Start fixing issues!**
@@ -56,7 +56,7 @@ This project has several deliberate issues across HTML, CSS, and JavaScript. You
 
 This is a learning-focused project perfect for first-time contributors! Before you start contributing - refer to the [CONTRIBUTING](./CONTRIBUTING.md) file for deatils.
 
-## 🎯 Project Purpose
+## 🎯 Project Pupose
 
 This **Open Source Playground** serves as a training ground for developers who want to:
 
