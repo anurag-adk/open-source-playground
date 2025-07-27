@@ -1,0 +1,95 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4;
+  color: #333;
+  width: 1000px;
+}
+
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navigation-menu a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #333;
+}
+
+.main-content-area {
+  text-align: center;
+  padding: 20px;
+}
+
+.quote-display {
+  margin-bottom: 30px;
+}
+
+#quote-text {
+  font-size: 22px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+#quote-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  background-color: #eee;
+  cursor: pointer;
+  /* Hover effects */
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+}
+
+.footer-info {
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px;
+  border-top: 1px solid #ccc;
+}
+
+.dark-mode {
+  background-color: #333;
+  color: #f4f4f4;
+}
+
+.dark-mode .header-section {
+  border-bottom-color: #555;
+}
+
+.dark-mode .navigation-menu a {
+  color: #f4f4f4;
+}
+
+.dark-mode button {
+  background-color: #555;
+  color: #f4f4f4;
+  border-color: #777;
+}
+
+.dark-mode input[type="text"] {
+  background-color: #555;
+  color: #f4f4f4;
+  border-color: #777;
+}
