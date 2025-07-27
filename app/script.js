@@ -27,10 +27,33 @@ document
   .addEventListener("click", displayRandomQuote);
 
 // Search functionality
-document.getElementById("search-btn").addEventListener("click", function () {
-  const searchTerm = document.getElementById("search-input").value;
-  // This function needs to be implemented to search through quotes
-  console.log("Search functionality not implemented yet");
+function performSearch() {
+  const searchTerm = document.getElementById("search-input").value
+    .trim()
+    .toLowerCase();
+  const results = quotes.filter(
+    (quote) =>
+      quote.text.toLowerCase().includes(searchTerm) ||
+      quote.author.toLowerCase().includes(searchTerm)
+  );
+
+  if (results.length > 0) {
+    // Show the first matching result
+    const quote = results[0];
+    document.getElementById("quote-text").textContent = `"${quote.text}"`;
+    document.getElementById("quote-author").textContent = `- ${quote.author}`;
+  } else {
+    document.getElementById("quote-text").textContent = "No quotes found.";
+    document.getElementById("quote-author").textContent = "";
+  }
+}
+
+document.getElementById("search-btn").addEventListener("click", performSearch);
+
+document.getElementById("search-input").addEventListener("keydown", function (event) {
+  if (event.key === "Enter") {
+    performSearch();
+  }
 });
 
 // Dark mode
