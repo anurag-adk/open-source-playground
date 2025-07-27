@@ -4,7 +4,6 @@ body {
   padding: 20px;
   background-color: #f4f4f4;
   color: #333;
-  width: 1000px;
 }
 
 .header-section {
@@ -72,6 +71,11 @@ input[type="text"] {
 .dark-mode {
   background-color: #333;
   color: #f4f4f4;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+body, .header-section, .navigation-menu a, button, input[type="text"],#search-input, .footer-info {
+  transition: background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease;
 }
 
 .dark-mode .header-section {
