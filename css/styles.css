@@ -21,9 +21,32 @@ body {
 }
 
 .navigation-menu a {
-  margin-left: 15px;
+  margin-left: 20px;
   text-decoration: none;
   color: #333;
+  font-weight: 500;
+  padding: 8px 14px;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navigation-menu a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  padding: 8px 14px;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s, text-decoration-color 0.3s;
+}
+
+.navigation-menu a:hover,
+.navigation-menu a:focus {
+  background-color: #e0e0e0;
+  color: #0074d9;
+  text-decoration: underline;
+  text-decoration-color: #0074d9;
+  transition: background-color 0.3s, color 0.3s, text-decoration-color 0.5s;
 }
 
 .main-content-area {
