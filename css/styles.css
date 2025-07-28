@@ -6,7 +6,7 @@ body {
   color: #333;
 }
 
-.header-section {
+header  {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -49,7 +49,7 @@ body {
   transition: background-color 0.3s, color 0.3s, text-decoration-color 0.5s;
 }
 
-.main-content-area {
+main{
   text-align: center;
   padding: 20px;
 }
@@ -84,7 +84,7 @@ input[type="text"] {
   border: 1px solid #ccc;
 }
 
-.footer-info {
+footer{
   text-align: center;
   margin-top: 50px;
   padding: 20px;
@@ -120,3 +120,4 @@ body, .header-section, .navigation-menu a, button, input[type="text"],#search-in
   color: #f4f4f4;
   border-color: #777;
 }
+
