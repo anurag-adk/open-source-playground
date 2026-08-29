@@ -97,11 +97,11 @@ footer{
   transition: background-color 0.4s ease, color 0.4s ease;
 }
 
-body, .header-section, .navigation-menu a, button, input[type="text"],#search-input, .footer-info {
+body, header, .navigation-menu a, button, input[type="text"],#search-input, .footer-info {
   transition: background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease;
 }
 
-.dark-mode .header-section {
+.dark-mode header {
   border-bottom-color: #555;
 }
 
