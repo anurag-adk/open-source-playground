@@ -77,11 +77,11 @@ button {
   cursor: pointer;
 }
 
-button:hover,
-button:focus {
-  background-color: #d3d3d3;
-  border-color: #0074d9;
-  color: #0074d9;
+button:not(#search-btn):hover,
+button:not(#search-btn):focus {
+  background-color: #000;
+  color: #fff;
+  border-color: #000;
 }
 
 button:active {
@@ -145,11 +145,11 @@ input[type="text"],
   border-color: #777;
 }
 
-.dark-mode button:hover,
-.dark-mode button:focus {
-  background-color: #666;
-  color: #f4f4f4;
-  border-color: #999;
+.dark-mode button:not(#search-btn):hover,
+.dark-mode button:not(#search-btn):focus {
+  background-color: #000;
+  color: #fff;
+  border-color: #000;
 }
 
 .dark-mode #search-btn.search-active {
