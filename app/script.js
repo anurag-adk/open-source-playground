@@ -56,6 +56,11 @@ document.getElementById("search-input").addEventListener("keydown", function (ev
   }
 });
 
+document.getElementById("search-input").addEventListener("input", function () {
+  const hasText = document.getElementById("search-input").value.trim().length > 0;
+  document.getElementById("search-btn").classList.toggle("search-active", hasText);
+});
+
 // Dark mode
 document
   .getElementById("dark-mode-toggle")
